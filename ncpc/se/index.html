@@ -1,0 +1,189 @@
+<!doctype HTML>
+<html lang='se'>
+    <head>
+        <title>LiTHe kod</title>
+        <link rel='icon' type='image/png' href='/static/img/icon.png'>
+        <link href='/static/style.css' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+        <script src="/static/script.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset='utf-8'/>
+    </head>
+    <body>
+        <input type="checkbox" name="aoc-trigger" id="aoc-trigger">
+        <input name='theme-trigger' id='theme-trigger' type='checkbox'>
+        <div id="body">
+        <script>document.getElementById("theme-trigger").checked = window.localStorage.getItem("theme") === "light";</script>
+        <input name='nav-trigger-toggle' id='nav-trigger-toggle' type='checkbox'>
+        <nav id='nav'>
+            <label for='nav-trigger-toggle'>
+                <div id='nav-toggle'>
+                    <i class="fas fa-bars"></i>
+                </div>
+            </label>
+            <div id='nav-logo-container'>
+                <img id='nav-logo' src='/static/img/logo.png'>
+            </div>
+            <ul><li class='item '
+                    onclick='window.location.href="/se/";'
+                    >
+                    <a href='/se/'>Start</a>
+                </li><li class='item '
+                    onclick='window.location.href="/contact/se/";'
+                    >
+                    <a href='/contact/se/'>Kontakt</a>
+                </li><li class='item '
+                    onclick='window.location.href="/competitions/se/";'
+                    >
+                    <a href='/competitions/se/'>Tävlingar</a>
+                </li><li class='item '
+                    onclick='window.location.href="/gamejam/se/";'
+                    >
+                    <a href='/gamejam/se/'>Game Jam</a>
+                </li><li class='item '
+                    onclick='window.location.href="/organization/se/";'
+                    >
+                    <a href='/organization/se/'>Organisation</a>
+                </li><li class='item '
+                    onclick='window.location.href="/cheats/se/";'
+                    >
+                    <a href='/cheats/se/'>Fusk</a>
+                </li></ul>
+            
+            <a class='button' id='toggle-lang' href="/ncpc/en/">
+                <img  onclick='window.location.href="en"' src='/static/img/en.svg'/>
+            </a>
+            
+            <label class='button' id='toggle-theme' for='theme-trigger'>
+                <img id='dark-theme' src='/static/img/dark-theme.svg'/>
+                <img id='light-theme' src='/static/img/light-theme.svg'/>
+            </label>
+        </nav>
+        <header>
+            <canvas id="fancy-pants-graphics"></canvas>
+            <a id="header-graphic" href='/se/'>
+                <img src='/static/img/totalrippad.svg'>
+            </a>
+        </header>
+        <article>
+            <noscript>
+                <h1>Oh snag, no JS!</h1>
+                <p id="no-script">Oh, it looks like you don't have JavaScript enabled, it's understandable really, but some of the functionality on this site won't work. Unfortunately you can't get light or dark theme or automatically switch between English and Swedish.</p>
+            </noscript>
+            
+<h1>NCPC 2020</h1>
+
+<p>Här finns information om <a href="https://nordic.icpc.io/ncpc2020/">Nordic Collegiate Programming
+Contest</a> 2020. Tävlingen kommer gå 7 november.</p>
+
+<h2>Uppdatering 2020-10-31</h2>
+
+<p>I och med <a href="https://www.folkhalsomyndigheten.se/nyheter-och-press/nyhetsarkiv/2020/oktober/beslut-om-skarpta-allmanna-rad-i-stockholms-lan-vastra-gotalands-lan-och-ostergotlands-lan/">Folkhälsomyndighetens nya särskilda
+rekommendationer</a>
+för bland annat Östergötland kommer hela tävlingen hållas digitalt.</p>
+
+<h2>Schema</h2>
+
+<p>Viktiga datum:</p>
+
+<ul>
+<li>31 oktober - Uppvärmning i <a href="https://discord.gg/UG5YYsN">vår Discordserver</a></li>
+<li>1 november - Sista dagen att kontakta oss för hjälp att hitta ett lag</li>
+<li>4 november - Sista dag för <a href="https://icpc.global/regionals/finder/Nordic-2020">laganmälan</a></li>
+<li>7 november - Tävling!</li>
+</ul>
+
+<p>Tävlingsschema 7 november:</p>
+
+<ul>
+<li>10:00 - Intropresentation i Discord</li>
+<li>11:00 - Tävlingen börjar!</li>
+<li><del>13:00 (ungefär) - Gratis lunch för on-site</del></li>
+<li>16:00 - Tävlingen avslutas, slutpresentation (och eventuellt mingel) i Discord</li>
+</ul>
+
+<h2>Detaljer</h2>
+
+<p>På grund av Covid-19 kommer tävlingen se lite annorlunda ut än tidigare år. Lag
+som vill kommer tillåtas tävla hemifrån, och på grund av detta kommer
+lagmedlemmar ha tillgång till en dator per person, till skillnad från det
+vanliga en dator per lag.</p>
+
+<p><del>För de som vill kommer LiTHe kod erbjuda tillgång till labbsalar och gratis
+lunch på tävlingsdagen. På grund av reglerna ovan är det inte ett krav för att
+vara med i tävlingen. För de som tävlar på plats kommer arrangemanget börja
+10:00 i Ada Lovelace, ingång 27 till B-Huset, med information om
+tävlingsreglerna och ord från våra sponsorer.</del></p>
+
+<p>Arrangemanget börjar 10:00 i <a href="https://discord.gg/UG5YYsN">vår Discordserver</a> med
+en streamad intropresentation.</p>
+
+<p>Vi kommer också ha en uppvärmning en vecka innan tävlingen (31 oktober) i vår
+Discordserver med start ~11.00. Kom och ställ
+frågor om tävlingsprogrammering i allmänhet eller om NCPC i synnerhet! Det finns
+inget schema, så om du undrar hur det här med tävlingsprogrammering egentligen
+fungerar är det här ett prima tillfälle att fråga.</p>
+
+<p>Anmälan till tävlingen kan göras via länk längst upp för lag med upp
+till tre medlemmar. Om du vill tävla men inte har ett lag och inte vill delta
+ensam (eller om du redan har en lagkamrat och letar efter en tredje medlem) kan du skicka ett e-postmeddelande till <a
+href="mailto:vordf@lithekod.se">vordf@lithekod.se</a> med "ncpc-registrering"
+någonstans i titeln senast 1 november. Ange om du är ICPC-kvalificerad eller inte (se nedan) <del>och
+om du kan tänka dig att tävla på plats eller inte. På grund av rådande situation
+kommer en önskan om att inte vara på plats ta prioritet</del>.</p>
+
+<p>Framsteg till NWERC kan endast erbjudas lag som är <a href="https://icpc.global/regionals/rules">berättigade till
+ICPC</a>, det vill säga om deltagarna:</p>
+
+<ul>
+<li>Inte har deltagit i NCPC eller motsvarande fem olika år</li>
+<li>Inte har deltagit i ICPC två olika år</li>
+<li>Föddes 1997 eller senare</li>
+<li>Började studera vid ett universitet eller jämförbart 2016 eller senare</li>
+</ul>
+
+<div id="sponsor-container">
+    <img class="sponsor only-dark-theme" src="/static/img/idainfront_dt.png" alt="ida infront">
+    <img class="sponsor only-light-theme" src="/static/img/idainfront_lt.png" alt="ida infront">
+    <img class="sponsor only-dark-theme" src="/static/img/ericsson_dt.svg" alt="ericsson">
+    <img class="sponsor only-light-theme" src="/static/img/ericsson_lt.png" alt="ericsson">
+    <img class="sponsor only-dark-theme" src="/static/img/opera_dt.png" alt="opera">
+    <img class="sponsor only-light-theme" src="/static/img/opera_lt.png" alt="opera">
+    <img class="sponsor only-dark-theme" src="/static/img/axis_dt.png" alt="axis">
+    <img class="sponsor only-light-theme" src="/static/img/axis_lt.jpg" alt="axis">
+</div>
+
+
+
+        </article>
+        <div id="footer-bg">
+            <footer>
+                <div class="footer-block">
+                    <h2>Kontakt</h2>
+                    <p>
+                        <a href="https://www.facebook.com/LitheKod/">
+                            <i class="fab fa-facebook"></i> Facebook
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://lithe-kod.slack.com/">
+                            <i class="fab fa-slack"></i> Slack
+                        </a>
+                    </p>
+                    <p>
+                        <a href="mailto:ordf@lithekod.se">
+                            <i class="fas fa-at"></i> ordf@lithekod.se
+                        </a>
+                    </p>
+                </div>
+                <div class="footer-block">
+                    <h2>Adress</h2>
+                    <p>LiTHe kod Kårallen, Universitetet</p>
+                    <p>581 83 Linköping</p>
+                </div>
+            </footer>
+        </div>
+        </div>
+        <canvas id="snowflakes"></canvas>
+    </body>
+</html>

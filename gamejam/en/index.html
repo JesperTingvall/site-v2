@@ -1,0 +1,260 @@
+<!doctype HTML>
+<html lang='en'>
+    <head>
+        <title>LiTHe kod</title>
+        <link rel='icon' type='image/png' href='/static/img/icon.png'>
+        <link href='/static/style.css' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+        <script src="/static/script.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset='utf-8'/>
+    </head>
+    <body>
+        <input type="checkbox" name="aoc-trigger" id="aoc-trigger">
+        <input name='theme-trigger' id='theme-trigger' type='checkbox'>
+        <div id="body">
+        <script>document.getElementById("theme-trigger").checked = window.localStorage.getItem("theme") === "light";</script>
+        <input name='nav-trigger-toggle' id='nav-trigger-toggle' type='checkbox'>
+        <nav id='nav'>
+            <label for='nav-trigger-toggle'>
+                <div id='nav-toggle'>
+                    <i class="fas fa-bars"></i>
+                </div>
+            </label>
+            <div id='nav-logo-container'>
+                <img id='nav-logo' src='/static/img/logo.png'>
+            </div>
+            <ul><li class='item '
+                    onclick='window.location.href="/en/";'
+                    >
+                    <a href='/en/'>Start</a>
+                </li><li class='item '
+                    onclick='window.location.href="/contact/en/";'
+                    >
+                    <a href='/contact/en/'>Contact us</a>
+                </li><li class='item '
+                    onclick='window.location.href="/competitions/en/";'
+                    >
+                    <a href='/competitions/en/'>Competitions</a>
+                </li><li class='item selected'
+                    onclick='window.location.href="/gamejam/en/";'
+                    >
+                    <a href='/gamejam/en/'>Game Jam</a>
+                </li><li class='item '
+                    onclick='window.location.href="/organization/en/";'
+                    >
+                    <a href='/organization/en/'>Organization</a>
+                </li><li class='item '
+                    onclick='window.location.href="/cheats/en/";'
+                    >
+                    <a href='/cheats/en/'>Cheats</a>
+                </li></ul>
+            
+            <a class='button' id='toggle-lang' href="/gamejam/se/">
+                <img  src='/static/img/se.svg'/>
+            </a>
+            
+            <label class='button' id='toggle-theme' for='theme-trigger'>
+                <img id='dark-theme' src='/static/img/dark-theme.svg'/>
+                <img id='light-theme' src='/static/img/light-theme.svg'/>
+            </label>
+        </nav>
+        <header>
+            <canvas id="fancy-pants-graphics"></canvas>
+            <a id="header-graphic" href='/en/'>
+                <img src='/static/img/totalrippad.svg'>
+            </a>
+        </header>
+        <article>
+            <noscript>
+                <h1>Oh snag, no JS!</h1>
+                <p id="no-script">Oh, it looks like you don't have JavaScript enabled, it's understandable really, but some of the functionality on this site won't work. Unfortunately you can't get light or dark theme or automatically switch between English and Swedish.</p>
+            </noscript>
+            
+<p><img src="/static/img/logga.png" alt="LiU Game Jam" id="gamejam-logo"></p>
+
+<h1>Syltprovning</h1>
+
+<p>Get ready for our upcoming event, Syltprovning!
+The 20th April at 5:15 PM we will for the first time ever arrange a Syltprovning! This event is aimed at you who are curious about game jams, but are unsure where to begin.
+It is also an opportunity for experienced jammers to share their experiences and be nostalgic about jams that have been.</p>
+
+<p>The event will be composed of a short presentation where we present what a jam is, how our jams work, and some anecdotes from old jammers.
+This will be followed by some play testing of old game jam games while chilling and talking about game jams, games, and all sorts of things.</p>
+
+<p>The event will be held remotely in <a href="https://discord.gg/eHgXYMS">LiU Game Jam's Discord server</a>. </p>
+
+<h1>Spring Game Jam 2021</h1>
+
+<p>It is soon time for this year's edition of Spring Game Jam!
+It is time the 7th-9th May to take out the keyboards, drawing tablets and microphones for a weekend filled with game creation.
+Because of persistent sickness throughout the world, this jam will be held remotely via <a href="https://discord.gg/eHgXYMS">LiU Game Jam's Discord server</a>.
+Also take a look at our <a href="https://www.facebook.com/events/718957842117923">Facebook event</a> and join our <a href="https://itch.io/jam/spring-game-jam-2021">Itch.io</a>.</p>
+
+<h4 class="highlight">What is a game jam?</h4>
+
+<p>A game jam is an event where programmers, artists and gamers come together to create games; both computer games and board games.
+At our game jam there is a 48 hours time limit and a randomized theme for inspiration.
+Visit our <a href="https://www.facebook.com/liugamejam/">Facebook page</a> or follow us on <a href="https://twitter.com/LiuGameJam">Twitter</a> for upcoming events!</p>
+
+<p><!-- Begin Mailchimp Signup Form -->
+<style>
+    #mc-embedded-subscribe {
+        background-color: #1ec6ba;
+        display: inline-block;
+        border: none;
+        border-radius: 3px;
+        padding: 0.25em 0.5em;
+    }
+    div.clear, .mc-field-group {
+        display: inline-block;
+    }
+    #mce-EMAIL {
+        border: none;
+        border-radius: 2px;
+        padding: 0.25em 0.5em;
+    }
+</style></p>
+
+<div id="mc_embed_signup">
+<form action="https://liugamejam.us12.list-manage.com/subscribe/post?u=092a6fffba8f6063437a51495&amp;id=c3863c4bf5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+        <h4 class="highlight">Subscribe to our mailing list</h4>
+        <div class="mc-field-group">
+        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="email address">
+        </div>
+    <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_092a6fffba8f6063437a51495_c3863c4bf5" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+
+<h4 class="highlight">Liu Game Jam's archive</h4>
+
+<p>If you want to see what others have created, check out the games from our <a href="https://itch.io/c/64050/liu-game-jam">archive collection</a>. You can also check out our <a href="http://us12.campaign-archive2.com/home/?u=092a6fffba8f6063437a51495&amp;id=c3863c4bf5">old newsletters</a>.</p>
+
+<h4 class="highlight">Who are welcome?</h4>
+
+<p>Everybody is welcome, student and non-student alike. No previous experience is needed and the event is free of charge.</p>
+
+<h4 class="highlight">Where are your events held?</h4>
+
+<p><strong>Due to COVID-19 events might be held remotely via <a href="https://discord.gg/tP2kDvgQKn">LiU Game Jam's Discord server</a>, see the specific event you are interested in for more information.</strong></p>
+
+<p>Our events are held at CreActive in Linköping. There is wireless internet, free tea, hot chocolate and coffee.</p>
+
+<h4 class="highlight">FAQ</h4>
+
+<ul>
+<li><p><em class="highlight">Can I sleep at the event?</em> <br>
+No. You are not allowed to sleep at CreActive.</p></li>
+<li><p><em class="highlight">Is there food available?</em> <br>
+We will order food together during both Friday and Saturday evening. If you wish to be included, get your order in along with payment before 7 PM on both nights. Price ranges from 80~100 kr a dish, and you can pay by swish or card. <br>
+There is free breakfast on Saturday and Sunday. Fruits, snacks, and hot drinks are available for free during the event. If you bring your own food, there are fridges and microwaves available.</p></li>
+<li><p><em class="highlight">How are groups selected? Do I need a team?</em> <br>
+Groups will be randomized for brainstorming purposes, but you are free to work with whomever you like. The starting groups will allow you to find people sharing similar ideas. We make sure everyone finds someone to work with.</p></li>
+<li><p><em class="highlight">Should I bring my computer or anything else?</em> <br>
+It depends on how you like to work. Bringing your own computer is up to you, although we recommend it. CreActive offers free wi-fi, ethernet cables and outlets. If you wish to purchase breakfast/lunch or join our common food order on friday or saturday evening, make sure to bring money. You can pay by swish or card.</p></li>
+<li><p><em class="highlight">Do I need to be able to program?</em> <br>
+Not at all! Game design covers all kind of fields such as art, music, design, storywriting, level creation and problemsolving. Anyone who is eager to create is welcome.</p></li>
+</ul>
+
+<h4 class="highlight">Great tools</h4>
+
+<p><strong>Tools for making computer games</strong></p>
+
+<ul>
+<li><p>3D (or 2D) </p>
+
+<ul>
+<li><a href="http://unity3d.com/">Unity (C#)</a></li>
+<li><a href="https://godotengine.org/">Godot (GDScript: Python-like syntax)</a></li>
+<li><a href="https://www.unrealengine.com/">Unreal Engine (C++/Visual Scripting)</a></li>
+</ul></li>
+<li><p>2D</p>
+
+<ul>
+<li><a href="https://www.scirra.com/">Construct (Visual Scripting)</a></li>
+<li><a href="http://www.pygame.org/">Pygame (Python)</a></li>
+<li><a href="https://love2d.org/">Löve (Lua)</a></li>
+<li><a href="http://haxeflixel.com/">Haxeflixel (Haxe)</a></li>
+<li><a href="https://scratch.mit.edu/">Scratch (Visual Scripting)</a></li>
+</ul></li>
+</ul>
+
+<p><strong>Tools for making graphics</strong></p>
+
+<ul>
+<li><a href="https://www.blender.org/">Blender 3D (3D modelling and more)</a></li>
+<li><a href="https://ephtracy.github.io/">MagicaVoxel (Voxel editor)</a></li>
+<li><a href="https://krita.org/">Krita (2D drawing and animation)</a></li>
+</ul>
+
+<p><strong>Tools for making sound effects</strong></p>
+
+<ul>
+<li><a href="http://www.bfxr.net/">bfxr (Online old school sound effect generator)</a></li>
+<li><a href="http://www.warmplace.ru/soft/sunvox/">Sunvox (Modular synthesizer / tracker for music)</a></li>
+<li><a href="http://www.beepbox.co/">BeepBox (Online chiptune music tracker)</a></li>
+</ul>
+
+<p><strong>Free game resources</strong></p>
+
+<ul>
+<li><a href="http://opengameart.org/">OpenGameArt.org (Public domain and creative commons game assets)</a></li>
+<li><a href="https://itch.io/game-assets">Itch.io Game Assets</a></li>
+</ul>
+
+<p><strong>Tools for keeping track of work</strong></p>
+
+<ul>
+<li><a href="https://git-scm.com/">git</a>
+<ul>
+<li><a href="http://gitlab.com/">GitLab</a></li>
+<li><a href="http://github.com/">GitHub</a></li>
+<li><a href="https://gitlab.liu.se/">LiU GitLab</a></li>
+</ul></li>
+<li><a href="https://www.sourcetreeapp.com/">SourceTree (frontend for git)</a></li>
+<li><a href="https://www.gitkraken.com/">Git kraken (cross platform frontend for git)</a></li>
+</ul>
+
+
+
+        </article>
+        <div id="footer-bg">
+            <footer>
+                <div class="footer-block">
+                    <h2>Contact us</h2>
+                    <p>
+                        <a href="https://www.facebook.com/LitheKod/">
+                            <i class="fab fa-facebook"></i> Facebook
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://lithe-kod.slack.com/">
+                            <i class="fab fa-slack"></i> Slack
+                        </a>
+                    </p>
+                    <p>
+                        <a href="mailto:ordf@lithekod.se">
+                            <i class="fas fa-at"></i> ordf@lithekod.se
+                        </a>
+                    </p>
+                </div>
+                <div class="footer-block">
+                    <h2>Address</h2>
+                    <p>LiTHe kod Kårallen, Universitetet</p>
+                    <p>581 83 Linköping</p>
+                </div>
+            </footer>
+        </div>
+        </div>
+        <canvas id="snowflakes"></canvas>
+    </body>
+</html>
