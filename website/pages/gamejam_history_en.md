@@ -56,7 +56,7 @@ Check out games from our jams in the [archive collection](https://itch.io/c/6405
 ### 2013
 
 - Fall Game Jam 2013 - *"Space Stegosaurus"*
-- Spring Game Jam 2013
+- Spring Game Jam 2013 - <img class="gamejam-theme" src="/static/img/house.gif" alt="House"> <img class="gamejam-theme" src="/static/img/abakus.gif" alt="Abakus">
 
 ### 2012
 
